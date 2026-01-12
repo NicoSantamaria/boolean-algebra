@@ -3,8 +3,12 @@ from itertools import product
 from typing import List, Tuple, cast
 from src.jaggdy.utils.types import Interpretation, Matrix, MatrixZ2
 from src.jaggdy.utils.enums import Z2
-from src.jaggdy.utils.utils import (hamming_distance, matrix_z2_to_matrix,
-                         matrix_to_matrix_z2, find_stationary)
+from src.jaggdy.utils.utils import (
+    hamming_distance, 
+    matrix_z2_to_matrix,
+    matrix_to_matrix_z2, 
+    find_stationary
+)
 from src.jaggdy.Graph import Graph
 
 
